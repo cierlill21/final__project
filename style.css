@@ -46,6 +46,7 @@ h1 {
   font-size: 48px;
   color: #1a202c;
   line-height: 1.25;
+  margin: 16 0;
 }
 
 .purple {
@@ -438,7 +439,7 @@ header {
 
 #features .section__para {
   text-align: center;
-  max-width: 576px;
+  max-width: 676px;
 }
 
 .features {
@@ -1554,7 +1555,11 @@ footer {
 
 @media (max-width: 640px) {
   .section__title {
-    line-height: 1.25;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .container {
@@ -1564,6 +1569,10 @@ footer {
   .nav__logo {
     margin: 8px 0;
     padding-bottom: 4px;
+  }
+
+  .header__description {
+    margin-top: -14px;
   }
 
   .header__email {
@@ -1587,18 +1596,29 @@ footer {
   }
 
   .header__customers--title {
+    margin-top: 48px;
     font-size: 14px;
     letter-spacing: 0.05em;
   }
 
+  .header__img--wrapper {
+    height: 263.34px;
+    margin-top: 48px;
+  }
+
+
   .section__title {
-    font-size: 30px;
+    margin-top: 16px;
   }
 
   #features .section__title,
   #pricing .section__title {
     font-size: 36px;
   }
+
+.features {
+  margin-top: 40px;
+}
 
   .feature__row {
     flex-direction: column;
@@ -1622,12 +1642,18 @@ footer {
   }
 
   #steps .section__title {
-    margin: 16px 0 0 0;
+    margin: 24px 0 0 0;
   }
 
   .steps__list {
     margin-top: 48px;
   }
+
+.steps__grid {
+  height: 5rem;
+  width: 5rem;
+  bottom: -50px;
+}
 
   .btn {
     line-height: 1.5;
