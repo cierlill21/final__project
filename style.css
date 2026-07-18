@@ -1617,13 +1617,15 @@ footer {
   }
 
 .features {
-  margin-top: 40px;
+  margin-top: 16px;
 }
+
 
   .feature__row {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
   }
 
   .feature__title {
