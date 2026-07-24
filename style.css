@@ -964,6 +964,7 @@ section #testimonials {
 }
 
 #testimonials .section__title {
+  font-size: 30px;
   margin-bottom: 24px;
   line-height: 1.25;
 }
@@ -973,7 +974,6 @@ section #testimonials {
 }
 
 .testimonial__rating {
-  color: rgba(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
 }
@@ -993,6 +993,11 @@ section #testimonials {
   font-weight: 700;
 }
 
+.testimonial__profile {
+  display: flex;
+  flex-direction: column;
+}
+
 .testimonial__para {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -1004,16 +1009,19 @@ section #testimonials {
 
 .testimonial__bottom {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-}
+  padding: 16px;
 
-.testimonial__profile {
-  display: flex;
-  align-items: center;
 }
 
 .testimonial__details {
   margin-left: 24px;
+}
+
+.testimonial__profile {
+  display: flex;
+  flex-direction: row;
 }
 
 .testimonial__img {
@@ -1030,7 +1038,7 @@ section #testimonials {
 
 .testimonial__buttons {
   display: flex;
-  align-items: center;
+  right: 500px;
 }
 
 .testimonial__button svg {
@@ -1051,13 +1059,6 @@ section #testimonials {
 
 .testimonial__button:hover {
   background-color: rgb(229, 231, 235);
-}
-
-.fa-star {
-  color: rgb(246 173 85);
-  display: inline-block;
-  height: 1.25rem;
-  width: 1.25rem;
 }
 
 .divider {
@@ -1644,7 +1645,7 @@ footer {
   }
 
   #steps .section__title {
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
   }
 
   .steps__list {
